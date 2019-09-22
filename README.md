@@ -1,6 +1,9 @@
 # Reading In The Dark: Classifying Encrypted Digits with Functional Encryption
 
-Implementation of [**this paper**](https://eprint.iacr.org/2018/206).
+This code implements the cryptographic part of
+[**Partially Encrypted Machine Learning using Functional Encryption**](https://arxiv.org/abs/1905.10214) (to appear at
+NIPS 2019). The code for the Collateral Learning component can be found
+[**here**](https://github.com/LaRiffle/collateral-learning).
 
 ## Requirements
 
@@ -89,3 +92,8 @@ python3 -O benchmark.py
 ## Issues
 
 Try opening an issue on GitHub.
+
+## Old paper
+
+An earlier version of this work can be found on [**eprint**](https://eprint.iacr.org/2018/206). It may be of interest
+to people who seek a better understanding of this code or of the cryptography involved.
